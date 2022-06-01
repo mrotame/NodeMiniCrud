@@ -68,17 +68,19 @@ By making a request to *localhost:3000/* (index of the page) with POST method, t
 
 #### POST
 
+By making a request to *localhost:3000/users* with the correct parameters, you will be able to manually insert an row into the local DB
+
 Parameters:
-  "Content-Type": "application/json"
-  "id": INTEGER
-  "ref_id": STRING
-  "twitch_user_id": STRING
-  "login": STRING
-  "display_name": STRING
-  "type": STRING
-  "broadcast_type": STRING
-  "description": STRING,
-  "profile_image_url": STRING
-  "offline_image_url": STRING
-  "view_count": INTEGER
-  "channel_created_at": DATE_STRING
+  * "Content-Type": "application/json"
+  * "id": INTEGER
+  * "ref_id": STRING
+  * "twitch_user_id": STRING
+  * "login": STRING
+  * "display_name": STRING
+  * "type": STRING
+  * "broadcast_type": STRING
+  * "description": STRING,
+  * "profile_image_url": STRING
+  * "offline_image_url": STRING
+  * "view_count": INTEGER
+  * "channel_created_at": DATE_STRING
