@@ -1,7 +1,7 @@
 # NodeMiniCrud
 
 Welcome to the Node Mini Crud Project.
-This project was developed for an job interview, you are free to use this project as an example on how to use AXIOS and EXPRESS.
+This project was developed for a job interview, you are free to use this project as an example of how to use AXIOS and EXPRESS.
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ npm run start
 
 ## Setting the configs
 
-There is some basic configs you should do before starting making the requests.
+There are some basic configs you should do before starting making the requests.
 
 ### Database Config
 
@@ -39,7 +39,7 @@ database: 'database_name', # ex: 'my_application_db'
 
 ### API Config
 
-At *src/config/apiSettings.js* you may change the presets to meet the api your are trying to make a request.
+At *src/config/apiSettings.js* you may change the presets to meet the API you are trying to make a request.
 
 ```
  endpoint : "api_url", # ex: 'https://url.com/api"
@@ -50,25 +50,25 @@ At *src/config/apiSettings.js* you may change the presets to meet the api your a
 
 Right now, this application has two endpoints, within a total of three requests.
 
-### Home Enpoint
+### Home Endpoint
 
-The index of the application receive two http methods:
+The index of the application receives two HTTP methods:
 
 #### GET
 
 This method takes no parameter.
-By making a request to *localhost:3000/* (index of the page) with GET method, you will be able to retreive all data inserted into local DB.
+By requesting to *localhost:3000/* (index of the page) with the GET method, you will be able to retrieve all data inserted into the local DB.
 
 #### POST
 
 This method takes no parameter.
-By making a request to *localhost:3000/* (index of the page) with POST method, the application will scan the API defined in the *API CONFIG*, and store all the data found inside the local DB
+By requesting to *localhost:3000/* (index of the page) with the POST method, the application will scan the API defined in the *API CONFIG*, and store all the data found inside the local DB
 
 ### Users endpoint
 
 #### POST
 
-By making a request to *localhost:3000/users* with the correct parameters, you will be able to manually insert an row into the local DB
+By requesting to *localhost:3000/users* with the correct parameters, you will be able to manually insert a row into the local DB
 
 Parameters:
   * "Content-Type": "application/json"
